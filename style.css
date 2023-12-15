@@ -1,0 +1,67 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+p{
+    margin: 0;
+}
+
+.post {
+    margin: auto;
+    width: 420px;
+    height: auto;
+    background-color: white;
+    
+}
+    /*header*/
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 0;
+
+}
+
+.icon-1 {
+margin: 0 10px 0 10px;
+font-size: 25px
+}
+.txt {
+    font-size: 13px;
+}
+.icon-2 {
+    margin: 0 15px 0 auto;
+    font-size: 28px;
+    
+}
+    /*img*/
+.post-img img {
+    display:block;
+    max-width:100%;
+    height:auto;    
+}
+    /*iconos de los comentarios*/
+.icon-parent{
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    margin: 15px 0 15px 5px;
+}
+.post-icons {
+    font-size: 28px;
+    margin-left: 10px;
+    
+}
+.space {
+    margin-right: 15px;
+}
+
+.comentario {
+    padding: 0 15px 15px 15px;
+    font-size: 14px;
+}
